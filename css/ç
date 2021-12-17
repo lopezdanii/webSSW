@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+/*@import url('https://fonts.googleapis.com/css?family=Modak%7CRoboto');*/
+/*@import url('https://fonts.googleapis.com/css?family=Kalam');*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+
+body{
+    margin: 10px auto;
+    text-align: center;
+    width: 600px;
+    background-color:#cccccc;
+}
+**/
+
+#textito{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Passion One'
+}
+#nombre{
+    font-family: 'Passion One';
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+ 
+.etiqueta {
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+ 
+.entrada {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+
+
+.tabla{
+    margin-top: 120px;  
+}   
+              
+section{
+    
+    position:absolute;
+    padding-bottom: 180px;
+    top : 130px;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+    width:100%;
+    
+    
+}
+section h3{
+    text-align:center;
+    font-size:1.7em;
+}
+.producto{
+    
+  border-top:thin dotted grey;
+  padding-bottom: 1000px;
+   
+    
+}
+tr{
+    height:40px;
+    width:40px; 
+    padding-left:90px;
+   
+}
+td{
+    height:40px;
+    width:40px; 
+    padding-left:0%;
+}
+td img{
+    height: 300%;
+    width: 100%;
+    padding-left:90px;
+}
+/*img{
+    height: 400%;
+    width: 600%;
+}*/
+.cantidad{
+    padding: 10px;
+    
+}
+button{
+    padding: 10%;
+    font-size: 1.5rem;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    background: green;
+    color: white;
+    border: none;
+}
+.cuadroboton{
+    border: 1.5px solid grey;
+    padding:1%; 
+    width: 10%;
+    float:right;
+    position: absolute;
+    top:20%;
+    right: 10%;
+}
+table{
+    
+   
+    border-collapse: collapse;
+    border-top: 1px solid grey;
+    width: 60%;
+    float:left;
+    margin-left:5%;
+}
+   
+.formulario {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+ 
+div.form-element {
+    margin: 20px 0;
+}
+ 
+.boton {
+    padding: 15px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: black;
+    color: white;
+    border: none;
+}
+ 
+p.success,
+p.error {
+    color: white;
+    font-family: lato;
+    background: yellowgreen;
+    display: inline-block;
+    padding: 2px 10px;
+}
+ 
+p.error {
+    background: orangered;
+}
+
+.elemento1,.elemento2,.elemento3,.elemento4,.elemento5{
+	margin-right: 50px;
+	margin-left: 50px;	
+	text-align: center;
+	/*border: medium dotted grey;*/
+	background:#cccccc;
+	
+}
+.categoria{
+        width: 200px;
+        padding: 25px 0;
+	display: flex;
+	justify-content: space-between|space-around;
+}
+
+section{
+	position:absolute;
+	padding-top:130px;
+}
+#tituloCat{
+	padding-top:1%;
+	font-size:'Kalam', cursive;
+	text-align:center;
+
+
+}
+
+header{
+  font-family: 'Kalam', cursive;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+}
+
+.busqueda{
+  margin-right: 0%;
+  width: 100%;
+  margin-top:13px;
+  margin-left: 35%;
+	
+}
+.busqueda #textoBusqueda{
+  width: 60%;
+  padding:3% 0;
+}
+.busqueda #buscar {
+  width: 15%;
+}
+
+.titulo{
+    color: #666666;
+    font-family: white;
+    font-size: 40px;
+    width: 100%;
+}
+.logos{
+    text-align: end;
+    font-size:2px;
+    background-color:#555555;
+}
+
+
+.logos a img{
+    
+    width:50px;
+    height:50px;
+    
+}
+.logos a{
+  margin-right: 1%;
+}
+
+ul{
+  list-style: none;
+}
+#menu{
+  margin-left: 25%;
+}
+
+#menu li>a{
+  background-color: #555555;
+  color: white;
+  padding: 15px 30px;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%;
+  margin-left: 0%;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu >li{
+  float: left;
+  text-align:center;
+}
+#menu>li>ul{
+  display: none;
+  width:100%;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+nav{
+  clear: both; 
+
+}
+.logosabajo{
+    text-align: end;
+    font-size:2px;
+    background-color:#7E7E7E;
+    display: flex;
+}
+.logosabajo a img{
+    
+    width:50px;
+    height:50px;
+    
+}
+
+.logosabajoizqu{
+    text-align: left;
+    width: 100%;
+    margin-left:5px;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+}
+.abajo {
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    color:#666666;
+    background-color: black;
+}

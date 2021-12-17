@@ -1,0 +1,22 @@
+section{
+	width: 100%;
+	margin: 0 auto
+}
+section h1{
+	text-align: center;
+	font-size: 40px;
+}
+section .faq{
+	width:80%;
+	margin: 0 auto;
+	text-align: justify; 
+	margin:1.5% auto;
+}
+section .faq .pregunta{
+	font-family: Lobster;
+	font-size: 1.2em;
+}
+section .faq .respuesta{
+	font-family: 'Mali';
+	margin-top:3px;
+}

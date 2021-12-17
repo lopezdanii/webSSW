@@ -1,0 +1,35 @@
+section{
+	width:100%;
+}
+section h1{
+	text-align: center;
+	margin-bottom: 16px;
+	font-size: 2em;
+}
+section .contacto{
+	width:40%;
+	margin:0 auto;
+}
+section .contacto input,textarea,select{
+	width: 100%;
+	margin:0 auto;
+	padding:3px 0;
+	font-size: 1.0em;
+	margin-bottom:3%;
+	font-family: 'Mali';
+}
+section .contacto input[type='submit']{
+	font-size: 1.2em;
+	background: #b8bac6;
+	border:none;
+	border-radius: 10px;
+}
+section .contacto input[type='submit']:hover{
+
+	background: #f5f6f6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 78%, #f5f6f6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 78%,#f5f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 78%,#f5f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+
+}
