@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+                        
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    margin: 10px auto;
+    text-align: center;
+    width: 600px;
+    background-color:#cccccc;
+}
+#textito{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Passion One';
+    text-align: left;
+}
+#nombre{
+    font-family: 'Passion One';
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+ 
+.etiqueta {
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+ 
+.entrada {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+ 
+.formulario {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+}
+ 
+div.form-element {
+    margin: 20px 0;
+}
+ 
+.boton {
+    padding: 15px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: black;
+    color: white;
+    border: none;
+}
+ 
+        </style>
+    </head>
+    <body>
+        <div id="nombre"><strong>LQTDLG</strong></div>
+        
+        <p id="textito"> Escribe tu dirección de email a continuación y te enviaremos con las instrucciones sobre como crear una nueva contraseña</p>
+        <form class="formulario">
+            <p><label class="etiqueta"> Dirección de email </label></p>
+            <p> <input class="entrada" type="text" name="usuario" pattern="[a-zA-Z0-9@.]+" required></p>
+            <p> <button class="boton" type="submit" name="recupera" value="recupera">Recuperar contraseña</button></p>
+        </form>   
+    </body>
+</html>

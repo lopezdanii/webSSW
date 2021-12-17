@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        .botonMenu{
+            display: none;
+        }
+        nav.principal{
+            display: none;
+        }
+        @media only screen and (max-width: 1300px){
+            .botonMenu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 3rem;    
+                height: 3rem;
+                position: fixed;
+                top: 1rem;
+                left: 1rem;
+                background-color: #99B2B7; 
+                border: 0;
+                color: white;
+                cursor: pointer;
+            }
+            .botonMenu:focus {
+                outline: none;
+            }
+            .botonMenu:focus + .principal {
+                transform: translateX(0rem);
+            }
+            nav.principal {
+                display: flex;
+                position: fixed;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 15rem;
+                background-color: #7F7F7F;
+                transform: translateX(-15rem);
+                transition: 1s all;
+            }
+            nav.principal ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            nav.principal a {
+                font-family: 'Kalam';
+                font-size:1.2em;
+                text-decoration: none;
+                display: block;
+                color: #D5DED9;
+                padding: 1rem;
+                transition: .5s all;
+            }
+            nav.principal a:hover {
+                background-color: #5B5B5B;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="botonMenu">
+            <img src="./Imagenes/baseline_reorder_white_18dp.png"/>
+        </button>
+        <nav class="principal">
+            <ul>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Mascarillas</a></li>
+                <li><a href="#">Sudaderas</a></li>
+                <li><a href="#">Camisetas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>   
+</body>
+</html>
